@@ -1,5 +1,5 @@
 # m6Aprediction
-This directory provides the R code and data for predicting RNA methylation status from gene expression data using classification and regression methods. The reads of input control and immunoprecipitated samples were stored, respectivly, in FPKM_methylation_input.csv and FPRKM_methylation_IP.csv. Scripts for classification and regression are contained, respectively, in M6AClassfication and M6ARegression. As for other files, one will find protein-protein interaction network in AjacencyMatrix.rds contains and functions implementing Gene Interaction-Regularized Elastic Net in mylasso.R  
+This directory provides the R code and data for predicting RNA methylation status from gene expression data using classification and regression methods. The reads of input control and immunoprecipitated samples were stored, respectivly, in FPKM_methylation_input.csv and FPRKM_methylation_IP.csv. Scripts for classification and regression are contained, respectively, in M6AClassfication.R and M6ARegression.R. As for other files, one will find protein-protein interaction network in AjacencyMatrix.rds contains and functions implementing Gene Interaction-Regularized Elastic Net in mylasso.R  
 
 Please contact Hao Xue haoxue9705@163.com if you have any questions regarding this package.
 
