@@ -164,17 +164,6 @@ print(mse_out)
 print(mse_in)
 proc.time() - ptm
 
-hist(as.numeric(lasso_error_out[1,]),breaks=25)
-hist(as.numeric(g_error_out[1,]), breaks = 25, add=T,col=rgb(1,0,0,1/4))
-lasso_n_coef=list()
-g_n_coef=list()
-myg_n_coef=list()
-enet_n_coef=list()
-for (i in 1:length(g)){
-  lasso_n_coef[[i]] = sum(coef(lasso[[i]])!=0)
-  g_n_coef[[i]] = sum(g[[i]]!=0)
-  enet_n_coef[[i]] = sum(coef(enet[[i]])!=0)
-}
 myData = list()
 myData$mse = mse
 myData$lasso_n_coef = lasso_n_coef
@@ -200,14 +189,3 @@ ggplot(melt(error2[[2]]), aes(x=variable, y=value)) +
   geom_boxplot()
 
 #save.image(file = "0702.RData")
-
-#write.csv(myData, file = "MyData0501.csv")
-
-#Z = colMeans(X[1:25,])
-#W = colMeans(Y[1:25,])
-#linearMod = lm(W~Z)
-#beta0 = coef(linearMod)[1]
-#beta1 = coef(linearMod)[2]
-#linearMod.pre = X[26:30,]*beta1 + beta0
-#plot(X[26,], Y[26,])
-#abline(linearMod)
