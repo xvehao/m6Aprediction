@@ -3,7 +3,7 @@ This directory provides the R code and data for predicting RNA methylation statu
 
 For more technical details about the scripts and data, please refer to:
 
-Predicting RNA methylation status from gene expression data using classification and regression methods by Hao Xue, Zhen Wei*, Jionglong Su and Jia Meng
+Predicting RNA methylation status from gene expression data using classification and regression methods by Hao Xue, Zhen Wei, Kunqi Chen, Yujiao Tang, Xiangyu Wu, Jionglong Su and Jia Meng
 
 Abstract 
 Background: RNA N6-methyladenosine methylation (m6A) has emerged as an important epigenetic modification for its role in regulating the stability, structure, processing and translation of RNA. Instability of m6A homeostasis would result in flaws in stem cell regulation, decrease in fertility and risk of cancer. Till this day, experimental detection and quantification of RNA m6A modification are still time-consuming and labor-intensive. There are only limited number of epitranscriptome samples accumulated in existing databases, and a matched RNA methylation profile is often not available for a biological problem of interests. Because gene expression data is usually readily available for most biology problems, it could be appealing if it is possible to predict RNA methylation status from gene expression data using in silico methods. 
