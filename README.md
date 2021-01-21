@@ -1,6 +1,7 @@
 # m6Aprediction
 This directory provides the R code and data for predicting RNA methylation status from gene expression data using classification and regression methods. The classification methods could be found in classification.r and regression methods in regression.r. You can download our data from http://180.208.58.66/MengLab_DataSharing 
-Human (Mouse) input and IP data available in FPKM_methylation_input.csv (mouse_RPKM_input2.csv) and FPKM_methylation_IP.csv(mouse_RPKM_IP2.csv) respectively. Please contact Hao Xue haoxue9705@163.com if you have any questions regarding this propject.
+
+Human (Mouse) input and IP data available in RPKM_input.csv (mouse_RPKM_input2.csv) and RPKM_IP.csv (mouse_RPKM_IP2.csv) respectively. Please contact Hao Xue haoxue9705@163.com if you have any questions regarding this propject.
 
 For more technical details about the scripts and data, please refer to:
 
